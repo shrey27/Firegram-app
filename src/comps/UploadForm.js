@@ -21,7 +21,7 @@ const UploadForm = () => {
 
   return (
     <div>
-      <h2 className="title">Start Uploading</h2>
+      <h2 className="title">Upload your Pictures</h2>
       <form>
         <label className="inputLabel">
           <input type="file" onChange={handleChange} />
